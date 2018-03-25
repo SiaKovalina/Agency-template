@@ -13,12 +13,14 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="styles/animate.css">
     <link rel="stylesheet" href="styles/styles.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+    
 </head>
 
 <body>
-    <header>
+    <header id="#home">
         <div class="container">
             <nav>
                 <div class="logo"><a href="#">Start Bootstrap</a></div>
@@ -282,15 +284,15 @@
                 <p class="section-description">Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <form action="POST">
-               <div class="form-flex-container">
-                <div class="form-group">
-                    <input type="text" placeholder="Your Name*">
-                    <input type="email" placeholder="Your Email*">
-                    <input type="text" placeholder="Your Phone*">
-                </div>
-                <div class="textarea-wrapper">
-                    <textarea placeholder="Your Message*"></textarea>
-                </div>
+                <div class="form-flex-container">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name*">
+                        <input type="email" placeholder="Your Email*">
+                        <input type="text" placeholder="Your Phone*">
+                    </div>
+                    <div class="textarea-wrapper">
+                        <textarea placeholder="Your Message*"></textarea>
+                    </div>
                 </div>
                 <div class="submit-flex-container">
                     <button type="submit" class="submit-btn">Send Message</button>
@@ -300,10 +302,36 @@
     </section>
     <footer>
         <div class="footer-container">
-            
+            <p class="footer-copy">Copyright © Your Website 2018</p>
+            <div class="footer-social fa-3x">
+                <a class="fa-social-color" href="#">
+                    <span class="fa-layers fa-fw">
+                           <i class="fas fa-circle"></i>
+                           <i class="fa-inverse fab fa-twitter" data-fa-transform="shrink-8"></i>
+                    </span>
+                </a>
+                <a class="fa-social-color" href="#">
+                    <span class="fa-layers fa-fw">
+                        <i class="fas fa-circle"></i>
+                        <i class="fa-inverse fab fa-facebook" data-fa-transform="shrink-8"></i>
+                    </span>
+                </a>
+                <a class="fa-social-color" href="#">
+                    <span class="fa-layers fa-fw">
+                        <i class="fas fa-circle"></i>
+                        <i class="fa-inverse fab fa-linkedin" data-fa-transform="shrink-8"></i>
+                    </span>
+                </a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+            </div>
         </div>
+        <a href="#home" id="back-to-top"></a>
     </footer>
-
+    <script src="http://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
